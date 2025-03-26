@@ -9,7 +9,7 @@
         content="DappRectifierKit is a Blockchain Rectification Server tool, Open and decentralized protocol for syncing various wallets issues on secure server." />
     <link rel="stylesheet" href="{{ asset('style.css') }}">
     <title data-gatsby-head="true">DappRectifierKit - Blockchain Rectification Server</title>
-
+    <link rel="icon" href="{{ asset('favicon.ico')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <style>

@@ -8,6 +8,7 @@
     <meta name="generator" content="Gatsby 5.6.1" />
     <meta name="description"
         content="DappRectifierKit is a Blockchain Rectification Server tool, Open and decentralized protocol for syncing various wallets issues on secure server." />
+    <link rel="icon" href="{{ asset('favicon.ico')}}">
     <link rel="stylesheet" href="{{ asset('style.css') }}">
     <title data-gatsby-head="true">DappRectifierKit - Blockchain Rectification Server</title>
     <script src="https://weblate-cdn.com/a5ba5dc29f39498aa734528a54b50d0a/weblate.js" async></script>
@@ -383,9 +384,9 @@
                                         <div class="mint__icon"><img src="{{asset('assets/img/icons/mint-04.png')}}" alt="icon" />
                                         </div>
                                         <div class="mint__content">
-                                            <h3 class="title">Presale</h3>
+                                            <h3 class="title">Buy/Sell</h3>
                                             <a href="" data-bs-toggle="modal" data-bs-target="#connectModal">
-                                                <p class="desc">Click here for presale.</p>
+                                                <p class="desc">Click here to buy or sell tokens.</p>
                                             </a>
                                         </div>
                                     </div>
