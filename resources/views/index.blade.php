@@ -37,9 +37,10 @@
                                 <div class="tgmenu__wrap">
                                     <nav class="tgmenu__nav">
                                         <div class="logo"><a aria-current="page" class="light-logo" href="/"><img
-                                                    src="{{asset('assets/img/logo/logosv.svg')}}" alt="walletconnect" /></a><a
-                                                aria-current="page" class="dark-logo" href="/"><img
-                                                    src="{{asset('assets/img/logo/logosv.svg')}}" alt="walletconnect" /></a>
+                                                    src="{{asset('assets/img/logo/logosv.svg')}}"
+                                                    alt="walletconnect" /></a><a aria-current="page" class="dark-logo"
+                                                href="/"><img src="{{asset('assets/img/logo/logosv.svg')}}"
+                                                    alt="walletconnect" /></a>
                                         </div>
                                         <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
                                             <ul class="navigation">
@@ -53,15 +54,13 @@
                                                     <a class="section-link" data-bs-toggle="modal"
                                                         data-bs-target="#connectModal">Developers</a>
                                                 </li>
-                                               
+
                                             </ul>
                                         </div>
                                         <div class="tgmenu__action">
                                             <ul class="list-wrap">
                                                 <li class="header-social">
-                                                    <a href="/">
-                                                        {{-- <i class="fab fa-discord"></i> --}}
-                                                    </a>
+
                                                     <a href="/" class="d-blcok d-xl-none" data-bs-toggle="modal"
                                                         data-bs-target="#connectModal"><i class="fas fa-wallet"></i>
                                                     </a>
@@ -138,14 +137,16 @@
                                                 <li class="listItem">
                                                     <button class="border-0 bg-transparent">
                                                         <a class="connect-meta">
-                                                            <img src="{{ asset('assets/img/icons/metamask.svg')}}" alt="Metamask" />
+                                                            <img src="{{ asset('assets/img/icons/metamask.svg')}}"
+                                                                alt="Metamask" />
                                                             MetaMask
                                                         </a>
                                                     </button>
                                                 </li>
                                                 <li class="listItem">
                                                     <button class="border-0 bg-transparent">
-                                                        <a><img src="{{asset('assets/img/icons/bitgo.svg')}}" alt="BitGo" />BitGo</a>
+                                                        <a><img src="{{asset('assets/img/icons/bitgo.svg')}}"
+                                                                alt="BitGo" />BitGo</a>
                                                     </button>
                                                 </li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
@@ -153,7 +154,8 @@
                                                                 alt="Trust" />Trust Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/coinbase.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/coinbase.svg')}}"
                                                                 alt="Coinbase" />Coinbase</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
@@ -161,7 +163,8 @@
                                                                 alt="Argent" />Argent Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/imtoken.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/imtoken.svg')}}"
                                                                 alt="ImToken" />ImToken Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
@@ -169,15 +172,18 @@
                                                                 alt="Math" />Math Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/blockchain.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/blockchain.svg')}}"
                                                                 alt="Blockchain" />Blockchain Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/uniswap.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/uniswap.svg')}}"
                                                                 alt="uniswap" />Uniswap</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/electrum.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/electrum.svg')}}"
                                                                 alt="Electrum" />Electrum Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
@@ -189,11 +195,13 @@
                                                                 alt="Huobi" />Huobi Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/okx.svg')}}" alt="OKX" />OKX
+                                                            href="#"><img src="{{asset('assets/img/icons/okx.svg')}}"
+                                                                alt="OKX" />OKX
                                                             Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/coinbase.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/coinbase.svg')}}"
                                                                 alt="Bitstamp" />Bitstamp Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
@@ -205,11 +213,13 @@
                                                                 alt="Kraken" />Kraken Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/binance.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/binance.svg')}}"
                                                                 alt="Binance" />Binance Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/bitmart.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/bitmart.svg')}}"
                                                                 alt="BitMart" />BitMart Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
@@ -221,14 +231,143 @@
                                                                 alt="VinDAX" />VinDAX</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/solflare.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/solflare.svg')}}"
                                                                 alt="Solflare" />Solflare Wallet</a>
                                                     </button></li>
                                                 <li class="listItem"><button class="border-0 bg-transparent"><a
-                                                            href="#"><img src="{{asset('assets/img/icons/phantom.svg')}}"
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/phantom.svg')}}"
                                                                 alt="Phantom" />Phantom Wallet</a>
                                                     </button></li>
-                                                
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/nova.svg')}}"
+                                                                alt="Nova" />Nova Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/safepal.svg')}}"
+                                                                alt="Safepal" />Safepal Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/cosmos.svg')}}"
+                                                                alt="Cosmos" />Cosmos Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/tokenpocket.svg')}}"
+                                                                alt="TokenPocket" />TokenPocket Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/ellipal.svg')}}"
+                                                                alt="Ellipal" />Ellipal Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/tonkeeper.svg')}}"
+                                                                alt="Tonkeeper" />Tonkeeper Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/tonspace.svg')}}"
+                                                                alt="Tonspace" />Tonspace Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/best.svg')}}"
+                                                                alt="Best" />Best Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/terrastation.svg')}}"
+                                                                alt="TerraStation" />TerraStation Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/cosmosstation.svg')}}"
+                                                                alt="CosmosStation" />CosmosStation Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/safemoon.svg')}}"
+                                                                alt="Safemoon" />Safemoon Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/onto.svg')}}"
+                                                                alt="Onto" />Onto Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/aave.svg')}}"
+                                                                alt="Aave" />Aave Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/formatic.svg')}}"
+                                                                alt="Formatic" />Formatic Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/dharma.svg')}}"
+                                                                alt="Dharma" />Dharma Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/1inch.svg')}}"
+                                                                alt="1inch" />1inch Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/tron.svg')}}"
+                                                                alt="Tron" />Tron Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/coin98.svg')}}"
+                                                                alt="Coin98" />Coin98 Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/torus.svg')}}"
+                                                                alt="Torus" />Torus Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/spatium.svg')}}"
+                                                                alt="Spatium" />Spatium Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/ownbit.svg')}}"
+                                                                alt="Ownbit" />Ownbit Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/bridge.svg')}}"
+                                                                alt="Bridge" />Bridge Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img
+                                                                src="{{asset('assets/img/icons/sparkpoint.svg')}}"
+                                                                alt="SparkPoint" />SparkPoint Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/vision.svg')}}"
+                                                                alt="Vision" />Vision Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/nomo.svg')}}"
+                                                                alt="Nomo" />Nomo Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/rabby.svg')}}"
+                                                                alt="rabby" />rabby Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/pulse.svg')}}"
+                                                                alt="Pulse" />Pulse Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/auro.svg')}}"
+                                                                alt="Auro" />Auro Wallet</a>
+                                                    </button></li>
+                                                <li class="listItem"><button class="border-0 bg-transparent"><a
+                                                            href="#"><img src="{{asset('assets/img/icons/kepler.svg')}}"
+                                                                alt="Kepler" />Kepler Wallet</a>
+                                                    </button></li>
+
                                             </ul>
                                         </div>
                                         <p class="privacy-text">By connecting your wallet, you agree to our
@@ -246,12 +385,14 @@
 
             </header>
             <main id="home" class="fix">
-                <div class="gradient-position"><img src="{{asset('assets/img/others/gradient-circle.svg')}}" style="left:-4%;top:-4%"
-                        width="500" alt="circle" /><img src="{{asset('assets/img/others/gradient-circle.svg')}}"
-                        style="right:-4%;bottom:-4%" width="500" alt="circle" /></div>
+                <div class="gradient-position"><img src="{{asset('assets/img/others/gradient-circle.svg')}}"
+                        style="left:-4%;top:-4%" width="500" alt="circle" /><img
+                        src="{{asset('assets/img/others/gradient-circle.svg')}}" style="right:-4%;bottom:-4%"
+                        width="500" alt="circle" /></div>
                 <section class="banner-area banner-padding position-relative">
                     <div class="banner__background-wrap">
-                        <div class="background" style="background-image:url({{asset('/assets/img/bg/gradient_bg01.png')}})"></div>
+                        <div class="background"
+                            style="background-image:url({{asset('/assets/img/bg/gradient_bg01.png')}})"></div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -259,8 +400,9 @@
                                 <div class="banner__content"
                                     data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;">
                                     <img src="{{asset('assets/img/objects/ethereum-01.png')}}" width="44" alt="object"
-                                        style="top:-25%;left:38%" /><img src="{{asset('assets/img/objects/circle-01.png')}}"
-                                        width="16" alt="object" style="top:14%;left:-12%" /><img
+                                        style="top:-25%;left:38%" /><img
+                                        src="{{asset('assets/img/objects/circle-01.png')}}" width="16" alt="object"
+                                        style="top:14%;left:-12%" /><img
                                         src="{{asset('assets/img/objects/circle-03.png')}}" width="24" alt="object"
                                         style="bottom:-16%;left:12%" />
                                     <h2 class="title">Blockchain Rectification Server</h2>
@@ -288,11 +430,12 @@
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="banner__images"><img src="{{asset('assets/img/objects/bitcoin-01.png')}}" width="44"
-                                        class="shape" alt="object" style="top:67%;left:-21%" /><img
-                                        src="{{asset('assets/img/objects/x.png')}}" width="28" class="shape" alt="object"
-                                        style="top:-4%;right:16%" /><img class="shape dashed-line has-active-light"
-                                        width="300" src="{{asset('assets/img/others/blob-dashed.svg')}}" alt="Blog dashed"
+                                <div class="banner__images"><img src="{{asset('assets/img/objects/bitcoin-01.png')}}"
+                                        width="44" class="shape" alt="object" style="top:67%;left:-21%" /><img
+                                        src="{{asset('assets/img/objects/x.png')}}" width="28" class="shape"
+                                        alt="object" style="top:-4%;right:16%" /><img
+                                        class="shape dashed-line has-active-light" width="300"
+                                        src="{{asset('assets/img/others/blob-dashed.svg')}}" alt="Blog dashed"
                                         style="top:-10%;right:17%;fill:transparent;opacity:.1" /><img
                                         class="shape dashed-line has-active-dark" width="300"
                                         src="{{asset('assets/img/others/blob-dashed-light.svg')}}" alt="Blog dashed"
@@ -334,24 +477,24 @@
                                 <div class="brand__list">
                                     <div class="brand__item"><img src="{{asset('assets/img/wallets/wallet-01.svg')}}"
                                             class="has-active-light" alt="brand" /><img
-                                            src="{{asset('assets/img/wallets/wallet-light-01.svg')}}" class="has-active-dark"
-                                            alt="brand" /></div>
+                                            src="{{asset('assets/img/wallets/wallet-light-01.svg')}}"
+                                            class="has-active-dark" alt="brand" /></div>
                                     <div class="brand__item"><img src="{{asset('assets/img/wallets/wallet-02.svg')}}"
                                             class="has-active-light" alt="brand" /><img
-                                            src="{{asset('assets/img/wallets/wallet-light-02.svg')}}" class="has-active-dark"
-                                            alt="brand" /></div>
+                                            src="{{asset('assets/img/wallets/wallet-light-02.svg')}}"
+                                            class="has-active-dark" alt="brand" /></div>
                                     <div class="brand__item"><img src="{{asset('assets/img/wallets/wallet-03.svg')}}"
                                             class="has-active-light" alt="brand" /><img
-                                            src="{{asset('assets/img/wallets/wallet-light-03.svg')}}" class="has-active-dark"
-                                            alt="brand" /></div>
+                                            src="{{asset('assets/img/wallets/wallet-light-03.svg')}}"
+                                            class="has-active-dark" alt="brand" /></div>
                                     <div class="brand__item"><img src="{{asset('assets/img/wallets/wallet-04.svg')}}"
                                             class="has-active-light" alt="brand" /><img
-                                            src="{{asset('assets/img/wallets/wallet-light-04.svg')}}" class="has-active-dark"
-                                            alt="brand" /></div>
+                                            src="{{asset('assets/img/wallets/wallet-light-04.svg')}}"
+                                            class="has-active-dark" alt="brand" /></div>
                                     <div class="brand__item"><img src="{{asset('assets/img/wallets/wallet-05.svg')}}"
                                             class="has-active-light" alt="brand" /><img
-                                            src="{{asset('assets/img/wallets/wallet-light-05.svg')}}" class="has-active-dark"
-                                            alt="brand" /></div>
+                                            src="{{asset('assets/img/wallets/wallet-light-05.svg')}}"
+                                            class="has-active-dark" alt="brand" /></div>
                                 </div>
                             </div>
                         </div>
@@ -371,17 +514,18 @@
                         </div>
                         <div class="mint__lits-wrapper"
                             data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 300;">
-                            <img class="shape" width="16" src="{{asset('assets/img/objects/circle-01.png')}}" alt="shape"
-                                style="top:-16%;left:8%" /><img class="shape" width="24"
-                                src="{{asset('assets/img/objects/circle-02.png')}}" alt="shape" style="bottom:16%;right:-8%" /><img
-                                class="shape" width="28" src="{{asset('assets/img/objects/x.png')}}" alt="Object"
-                                style="bottom:16%;left:-8%" />
+                            <img class="shape" width="16" src="{{asset('assets/img/objects/circle-01.png')}}"
+                                alt="shape" style="top:-16%;left:8%" /><img class="shape" width="24"
+                                src="{{asset('assets/img/objects/circle-02.png')}}" alt="shape"
+                                style="bottom:16%;right:-8%" /><img class="shape" width="28"
+                                src="{{asset('assets/img/objects/x.png')}}" alt="Object" style="bottom:16%;left:-8%" />
                             <div class="row justify-content-center el"
                                 data-anime="targets: &gt; *; opacity:[0, 1]; translateY:[24, 0]; onview: -250; delay: anime.stagger(100);">
 
                                 <div class="col-md-6 col-sm-9">
                                     <div class="mint__item">
-                                        <div class="mint__icon"><img src="{{asset('assets/img/icons/mint-04.png')}}" alt="icon" />
+                                        <div class="mint__icon"><img src="{{asset('assets/img/icons/mint-04.png')}}"
+                                                alt="icon" />
                                         </div>
                                         <div class="mint__content">
                                             <h3 class="title">Buy/Sell</h3>
@@ -393,7 +537,8 @@
                                 </div>
                                 <div class="col-md-6 col-sm-9">
                                     <div class="mint__item">
-                                        <div class="mint__icon"><img src="{{('assets/img/icons/mint-03.png')}}" alt="icon" />
+                                        <div class="mint__icon"><img src="{{('assets/img/icons/mint-03.png')}}"
+                                                alt="icon" />
                                         </div>
                                         <div class="mint__content">
                                             <h3 class="title">Authenticate</h3>
@@ -419,7 +564,8 @@
                                 </div>
                                 <div class="col-md-6 col-sm-9">
                                     <div class="mint__item">
-                                        <div class="mint__icon"><img src="{{asset('assets/img/icons/mint-02.png')}}" alt="icon" />
+                                        <div class="mint__icon"><img src="{{asset('assets/img/icons/mint-02.png')}}"
+                                                alt="icon" />
                                         </div>
                                         <div class="mint__content">
                                             <h3 class="title">Migration</h3>
@@ -788,8 +934,8 @@
                             data-anime="targets: &gt; * &gt; *; opacity:[0, 1]; translateY:[48, 0]; onview: -400; delay: anime.stagger(100);">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-11">
                                 <div class="collection__item">
-                                    <div class="collection__item-thumb"><a href="#"><img src="{{asset('assets/img/artwork/06.jpg')}}"
-                                                alt="img" /></a>
+                                    <div class="collection__item-thumb"><a href="#"><img
+                                                src="{{asset('assets/img/artwork/06.jpg')}}" alt="img" /></a>
                                     </div>
                                     <div class="collection__item-content">
                                         <h4 class="name">
@@ -826,8 +972,8 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-11">
                                 <div class="collection__item">
-                                    <div class="collection__item-thumb"><a href="#"><img src="{{asset('assets/img/artwork/07.jpg')}}"
-                                                alt="img" /></a>
+                                    <div class="collection__item-thumb"><a href="#"><img
+                                                src="{{asset('assets/img/artwork/07.jpg')}}" alt="img" /></a>
                                     </div>
                                     <div class="collection__item-content">
                                         <h4 class="name">
@@ -863,8 +1009,8 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-11">
                                 <div class="collection__item">
-                                    <div class="collection__item-thumb"><a href="#"><img src="{{asset('assets/img/artwork/16.jpg')}}"
-                                                alt="img" /></a>
+                                    <div class="collection__item-thumb"><a href="#"><img
+                                                src="{{asset('assets/img/artwork/16.jpg')}}" alt="img" /></a>
                                     </div>
                                     <div class="collection__item-content">
                                         <h4 class="name">
@@ -954,11 +1100,12 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-6 col-lg-8">
-                                <div class="cta__content text-center"><img src="{{asset('assets/img/objects/circle-01.png')}}"
-                                        width="24" alt="Object" style="top:0%;left:-16%" /><img
-                                        src="{{asset('assets/img/objects/x.png')}}" width="24" alt="Object"
-                                        style="bottom:16%;right:-8%" /><img src="{{asset('assets/img/objects/ethereum-02.png')}}"
-                                        width="40" alt="Object" style="top:0%;right:-16%" /><img
+                                <div class="cta__content text-center"><img
+                                        src="{{asset('assets/img/objects/circle-01.png')}}" width="24" alt="Object"
+                                        style="top:0%;left:-16%" /><img src="{{asset('assets/img/objects/x.png')}}"
+                                        width="24" alt="Object" style="bottom:16%;right:-8%" /><img
+                                        src="{{asset('assets/img/objects/ethereum-02.png')}}" width="40" alt="Object"
+                                        style="top:0%;right:-16%" /><img
                                         src="{{asset('assets/img/objects/bitcoin-01.png')}}" width="48" alt="Object"
                                         style="bottom:16%;left:-8%" />
                                     <h2 class="title">Build with WalletConnect</h2><a href="" data-bs-toggle="modal"
@@ -974,16 +1121,18 @@
             </main>
             <footer class="footer-area section-py-80">
                 <div class="container">
-                    <div class="footer__wrapper"><img src="{{asset('assets/img/objects/ethereum-01.png')}}" width="32" alt="object"
-                            style="top:32%;left:16%" /><img src="{{asset('assets/img/objects/x.png')}}" width="16" alt="object"
-                            style="top:8%;right:16%" /><img src="{{asset('assets/img/objects/circle-01.png')}}" width="16"
-                            alt="object" style="bottom:24%;right:40%" /><img src="{{asset('assets/img/objects/circle-03.png')}}"
+                    <div class="footer__wrapper"><img src="{{asset('assets/img/objects/ethereum-01.png')}}" width="32"
+                            alt="object" style="top:32%;left:16%" /><img src="{{asset('assets/img/objects/x.png')}}"
+                            width="16" alt="object" style="top:8%;right:16%" /><img
+                            src="{{asset('assets/img/objects/circle-01.png')}}" width="16" alt="object"
+                            style="bottom:24%;right:40%" /><img src="{{asset('assets/img/objects/circle-03.png')}}"
                             width="24" alt="object" style="bottom:-8%;left:30%" />
                         <div class="row justify-content-center">
                             <div class="col-xl-5 col-lg-7 col-md-9 col-sm-11">
                                 <div class="footer__info text-center">
                                     <div class="footer-logo"><a aria-current="page" class="" href="index.html"><img
-                                                src="{{asset('assets/img/logo/logosv.svg')}}" width="200" alt="Walletconnect" /></a>
+                                                src="{{asset('assets/img/logo/logosv.svg')}}" width="200"
+                                                alt="Walletconnect" /></a>
                                     </div>
                                     <p>make it easy to sync various wallets issues on secure server.</p>
                                     <ul class="list-wrap footer__social">
@@ -1045,20 +1194,20 @@
     <script src="{{ asset('js/app-1e7c4eed68baef550aaa.js') }}" async></script>
     <!-- slice-end id="_gatsby-scripts-1" -->
     <div class="gtranslate_wrapper"></div>
-    <script>window.gtranslateSettings = {"default_language":"en","wrapper_selector":".gtranslate_wrapper","float_switcher_open_direction":"bottom"}</script>
+    <script>window.gtranslateSettings = { "default_language": "en", "wrapper_selector": ".gtranslate_wrapper", "float_switcher_open_direction": "bottom" }</script>
     <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/67e2fc2be2fadb1909649562/1in7ai2mr';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/67e2fc2be2fadb1909649562/1in7ai2mr';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
     </script>
     <!--End of Tawk.to Script-->
 </body>
